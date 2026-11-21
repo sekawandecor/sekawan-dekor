@@ -2,7 +2,7 @@ const NAMA_KAT = {couple:"Couple", birthday:"Birthday Party", engagement:"Engage
 const waLink = (teks) => "https://wa.me/" + PENGATURAN.nomorWA + "?text=" + encodeURIComponent(teks);
 
 // tombol WA umum
-document.querySelectorAll(".js-wa").forEach(a => a.href = waLink("Halo Sekawan Dekor, saya mau tanya-tanya soal dekorasi."));
+document.querySelectorAll(".js-wa").forEach(a => a.href = waLink("Halo Sekawan Decor, saya mau tanya-tanya soal dekorasi."));
 
 // info kontak
 document.getElementById("infoWA").textContent = "+" + PENGATURAN.nomorWA.replace(/^62/, "62 ");
@@ -57,7 +57,7 @@ function buka(i){
   document.getElementById("lbTitle").textContent = p.judul;
   document.getElementById("lbMeta").textContent = p.lokasi + " · " + p.tanggal;
   document.getElementById("lbDesc").textContent = p.deskripsi;
-  document.getElementById("lbWA").href = waLink(`Halo Sekawan Dekor, saya lihat portofolio "${p.judul}" di website. Saya mau dekor seperti ini, bisa info lebih lanjut?`);
+  document.getElementById("lbWA").href = waLink(`Halo Sekawan Decor, saya lihat portofolio "${p.judul}" di website. Saya mau dekor seperti ini, bisa info lebih lanjut?`);
   lb.classList.add("open");
 }
 document.getElementById("lbPrev").onclick = () => buka(idx - 1);
@@ -75,7 +75,7 @@ document.addEventListener("keydown", e => {
 document.getElementById("waForm").onsubmit = e => {
   e.preventDefault();
   const d = Object.fromEntries(new FormData(e.target));
-  const teks = `Halo Sekawan Dekor, saya ${d.nama}.\n\nJenis acara: ${d.acara}\nTanggal: ${d.tanggal || "-"}\nLokasi: ${d.lokasi || "-"}\n\nKonsep: ${d.pesan || "-"}`;
+  const teks = `Halo Sekawan Decor, saya ${d.nama}.\n\nJenis acara: ${d.acara}\nTanggal: ${d.tanggal || "-"}\nLokasi: ${d.lokasi || "-"}\n\nKonsep: ${d.pesan || "-"}`;
   window.open(waLink(teks), "_blank");
 };
 
