@@ -41,8 +41,7 @@ sekawan-dekor/
 - Kalau `foto` di data kosong, yang muncul kotak gradasi sesuai warna kategori sebagai placeholder.
 
 ## Masih placeholder (WAJIB diganti)
-- `nomorWA` di `js/data.js` masih nomor contoh `6281234567890`. Formatnya 62..., tanpa 0 dan tanpa +.
-- Instagram, area layanan, dan jam respon.
+- ~~Nomor WA, Instagram, area, jam respon~~ sudah diisi (21 Nov 2026): WA 6285100168168, IG @sekawandecor_, Surabaya, 08.00–21.00.
 - 9 item portofolio masih contoh fiktif. Ganti dengan proyek asli dan isi `foto: "foto/nama-file.jpg"`.
 - Teks "Tentang Kami" ("empat sahabat") hanya tebakan dari nama "Sekawan". Sesuaikan dengan cerita asli.
 - Foto hero dan foto tentang kami masih placeholder di `index.html`.
@@ -60,6 +59,11 @@ sekawan-dekor/
 - Mengoptimasi foto (format WebP, ukuran kecil) supaya cepat dibuka di HP.
 - SEO lokal: meta Open Graph untuk preview saat dibagikan di WA/IG, dan Google Business Profile.
 - Halaman detail per proyek (beberapa foto per acara).
+
+## Hosting (aktif)
+- Repo GitHub: https://github.com/sekawandecor/sekawan-dekor (branch main, GitHub Pages dari / root).
+- Live: https://sekawandecor.github.io/sekawan-dekor/
+- Untuk sementara pakai alamat gratis; domain sendiri menyusul.
 
 ## Cara menjalankan
 Buka `index.html` langsung di browser, atau jalankan server lokal:
