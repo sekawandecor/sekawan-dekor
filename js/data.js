@@ -1,10 +1,10 @@
 /* PENGATURAN & DAFTAR PORTOFOLIO — edit file ini saja untuk update konten */
 const PENGATURAN = {
   // Nomor WhatsApp, format 62 (tanpa 0 di depan, tanpa spasi/tanda +)
-  nomorWA: "6281234567890",
-  instagram: "@sekawandekor",
-  area: "Jakarta & sekitarnya",
-  jamKerja: "Setiap hari, 09.00–20.00"
+  nomorWA: "6285100168168",
+  instagram: "@sekawandecor_",
+  area: "Surabaya",
+  jamKerja: "Setiap hari, 08.00–21.00"
 };
 
 /* DAFTAR PORTOFOLIO
