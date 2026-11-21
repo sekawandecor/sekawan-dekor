@@ -4,6 +4,9 @@ const waLink = (teks) => "https://wa.me/" + PENGATURAN.nomorWA + "?text=" + enco
 // tombol WA umum
 document.querySelectorAll(".js-wa").forEach(a => a.href = waLink("Halo Sekawan Decor, saya mau tanya-tanya soal dekorasi."));
 
+// tombol konsultasi (tanpa harus order)
+document.querySelectorAll(".js-wa-konsul").forEach(a => a.href = waLink("Halo Sekawan Decor, saya mau konsultasi dulu soal dekorasi, belum order. Boleh tanya-tanya?"));
+
 // info kontak
 document.getElementById("infoWA").textContent = "+" + PENGATURAN.nomorWA.replace(/^62/, "62 ");
 document.getElementById("infoIG").textContent = PENGATURAN.instagram;
