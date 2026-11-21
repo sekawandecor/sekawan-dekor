@@ -15,7 +15,9 @@
   /* nav */
   header{position:sticky;top:0;z-index:50;background:rgba(255,250,245,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
   .nav{display:flex;align-items:center;justify-content:space-between;height:68px}
-  .logo{font-family:'Cormorant Garamond',serif;font-size:1.6rem;font-weight:600}
+  .logo{font-family:'Cormorant Garamond',serif;font-size:1.6rem;font-weight:600;display:flex;align-items:center;gap:10px}
+  .logo img{width:42px;height:42px;border-radius:50%}
+  .logo b{font-weight:600}
   .logo span{color:var(--rose)}
   .nav ul{display:flex;gap:28px;list-style:none;font-size:.95rem}
   .nav ul a:hover{color:var(--rose)}
@@ -113,6 +115,7 @@
   .btn-wa:hover{filter:brightness(.95)}
 
   footer{background:#221e1b;color:#a99c90;text-align:center;padding:26px 0;font-size:.88rem}
+  .foot-logo{width:48px;height:48px;margin:0 auto 10px;border-radius:50%;box-shadow:0 0 0 2px #3a332e}
 
   .wa-float{position:fixed;right:22px;bottom:22px;z-index:60;width:60px;height:60px;border-radius:50%;background:var(--wa);display:flex;align-items:center;justify-content:center;box-shadow:0 8px 24px rgba(0,0,0,.2);transition:.2s}
   .wa-float:hover{transform:scale(1.07)}
